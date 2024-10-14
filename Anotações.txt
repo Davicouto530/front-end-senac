@@ -1,0 +1,66 @@
+Em cima to "<title></title>"
+<meta desc" content=""> = Serve para colocar uma descrição para aparecer no goolgle embaixo do link
+<meta kw> =  Serve para colocar palavras chaves no site
+
+instalar a extensão = Live server, e depois lá embaixo clicar em "Go live": Serve para mostrar sem precisar ficar atualizando a página
+
+HTML
+
+<strong>Aqui</strong> = Serve para deixar a letra em negrito
+
+<em>Aqui</em> = Serve para deixar a letra em itálico
+
+<strong><em></em></strong> = Serve para deixar a letra negrito e itálico
+
+<mark>Cor</mark> = Serve para colocar uma marcação, igual marca texto
+
+<p>Excluir um pedaço de textto <del>Texto excluído</del></p> = O "del" serve para colocar uma linha no meio da palavra
+
+<ins>Sublinhado</ins> = Serve para colocar uma linha embaixo da palavara
+
+H <sub>2</sub> = O "sub" serve para colocar a palavra um pouco abaixo
+
+H <sup>2</sup> = O "sup" serve para colocar a palavra um pouco acima, igual a potenciação
+
+<ol type="I" start="4"> = "ol" Serve para fazer listas ordenadas, e o "type" dentro serve para escolher o tipo do número ou letra que vai aparecer no começo, e o start é apartir de qual número vai começar
+    <li>HTML</li> = li serve para colocar os itens dentro da lista
+    <li>css</li>
+   <li>Javascript</li>
+</ol>
+
+<ul type="circle"> <!--square, disc, circle--> = "ul" são listas não ordenadas, sem números no começo 
+     <li>Pão</li>
+     <li>Café</li>
+     <li>Leite</li>
+     <li>Açucar</li>
+</ul>
+
+<table> = Serve para criar a tabela
+	 <tr> = serve para criar as linhas
+            <td> = serve para escrever algo na tabela
+                <h1>História do linux</h1>
+            </td>
+            <td>
+                <img src="img/tux2.png" alt="">
+            </td>
+        </tr>
+</table>
+
+ <td colspan="3" rowspan="4"> = o "colspan" serve para falar quantos espaços vai ocupar deitado, e o "rowspan" serve para falar quantos espaços vai ocupar em pé
+
+CSS
+
+font-family: arial; = Serve para mudar a fonte 
+
+font-size: 3em; = /*O tamanho "em" vai modificar automaticamente de acordo com o tamanho da tela*/
+
+text-shadow: 5px 5px 5px black; = serve para sombra na letra
+
+background: url(img/fundo2.png) no-repeat; = Serve para colocar uma imagem no fundo do site dentro da "url()", e o "no-repeat" serve para não repetir a imagem
+
+border: 2px black solid; /*Tipos de borda: dotted, dashed, double, groove, ridge, solid, inset, outset*/ = Serve para colocar borda na tabela, cor da linha e o tipo
+
+table {
+border-spacing: 0; = Serve para não ter espaços entre as bordas na tabela
+
+Para colocar EMOJI aperta a tecla do Windows e o ponto
